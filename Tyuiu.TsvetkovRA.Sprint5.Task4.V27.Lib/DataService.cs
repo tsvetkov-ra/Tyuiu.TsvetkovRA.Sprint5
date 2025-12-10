@@ -11,7 +11,7 @@ namespace Tyuiu.TsvetkovRA.Sprint5.Task4.V27.Lib
                 string z = strX.Replace('.', ',');
                 double x = (Convert.ToDouble(z));
                 double y = (Math.Pow(x, 3) - 4 * x) / Math.Cos(x);
-                return Math.Round(y);
+                return Math.Round(y,3);
             }
         }
     }
